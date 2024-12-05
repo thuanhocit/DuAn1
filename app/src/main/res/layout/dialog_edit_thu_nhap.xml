@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="18dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Số tiền"
+                    android:textSize="24sp"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:id="@+id/edtSoTienTN"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:hint="Nhập vào tên số tiền"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tài khoản"
+                    android:textSize="24sp"
+                    android:textStyle="bold"/>
+                <Spinner
+                    android:id="@+id/spnTKTN"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Danh mục"
+                    android:textSize="24sp"
+                    android:textStyle="bold"/>
+                <Spinner
+                    android:id="@+id/spnDMTN"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ngày chi"
+                    android:textSize="24sp"
+                    android:textStyle="bold"/>
+                <EditText
+                    android:id="@+id/edNgayTN"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:hint="Nhập vào ngày tháng"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mô tả"
+                    android:textSize="24sp"
+                    android:textStyle="bold"/>
+                <EditText
+                    android:id="@+id/edMoTaTN"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:hint="Nhập vào mô tả chi tiêu"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

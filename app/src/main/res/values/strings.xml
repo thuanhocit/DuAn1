@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">DuAn1_Personal_Budgeting</string>
+    <string name="forgot_pass"><u>Quên mật khẩu ?</u></string>
+    <string name="open_nav">Open</string>
+    <string name="close_nav">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <style name="MyDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">@color/lavender</item>
+    </style>
+
+    <string name="deleteDM">Bạn chắc chắn muốn xoá danh mục này</string>
+    <string name="deleteTK">Bạn chắc chắn muốn xoá tài khoản này</string>
+</resources>

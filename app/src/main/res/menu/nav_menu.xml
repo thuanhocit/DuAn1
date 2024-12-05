@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group>
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_2"
+            android:title="Trang chủ"/>
+
+        <item
+            android:id="@+id/nav_danhMuc"
+            android:icon="@drawable/clipboard"
+            android:title="Quản lý danh mục"/>
+
+        <item
+            android:id="@+id/nav_taiKhoan"
+            android:icon="@drawable/wallet"
+            android:title="Quản lý tài khoản"/>
+
+
+
+        <item
+            android:id="@+id/nav_giaoDich"
+            android:icon="@drawable/transfer"
+            android:title="Quản lý giao dịch"/>
+
+    </group>
+
+    <item
+        android:title="Báo cáo">
+
+        <menu>
+            <item
+                android:id="@+id/nav_TKTC"
+                android:icon="@drawable/signal"
+                android:title="Thống kê thu chi"/>
+
+            <item
+                android:id="@+id/nav_LichSu"
+                android:icon="@drawable/baseline_history_24"
+                android:title="Lich sử giao dịch"/>
+        </menu>
+
+    </item>
+
+    <item
+        android:title="Cài đặt">
+        <menu>
+            <item
+                android:id="@+id/nav_thongTinCaNhan"
+                android:icon="@drawable/user"
+                android:title="Thông tin cá nhân"/>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/log_out"
+                android:title="Logout"/>
+        </menu>
+
+    </item>
+
+</menu>
